@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  mett:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"  # Expose port 80 (inside container) to port 8080 (host)
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./dist:/usr/share/nginx/html  # Optionally mount the dist folder for local dev
+    networks:
+      - vite-network
+
+networks:
+  vite-network:
+    driver: bridge

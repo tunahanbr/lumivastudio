@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+
+  body {
+    @apply font-sans bg-grain;
+  }
+}
+
+.decorative-line {
+  @apply relative;
+}
+
+.decorative-line::after {
+  content: '';
+  @apply absolute w-20 h-1 bg-barber-500 left-1/2 -translate-x-1/2 mt-4;
+}
