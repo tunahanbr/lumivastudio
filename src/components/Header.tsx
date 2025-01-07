@@ -9,7 +9,7 @@ export default function Header() {
           <div className="flex items-center space-x-4">
             <div className="flex items-center">
               <Mail className="w-4 h-4 mr-2" />
-              <span>info@mettbarber.com</span>
+              <span>info@lumiva.com</span>
             </div>
             <div className="flex items-center">
               <Phone className="w-4 h-4 mr-2" />
@@ -27,7 +27,7 @@ export default function Header() {
         <div className="container mx-auto flex justify-between items-center px-4">
           <div className="flex items-center">
             <Scissors className="w-8 h-8 text-orange-500" />
-            <span className="ml-2 text-2xl font-bold">METT</span>
+            <span className="ml-2 text-2xl font-bold">Lumiva</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-6">

@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <Scissors className="w-8 h-8 text-orange-500" />
-              <span className="ml-2 text-2xl font-bold">METT</span>
+              <span className="ml-2 text-2xl font-bold">Lumiva</span>
             </div>
             <p className="text-gray-300">
               Premium Barber-Dienstleistungen für den modernen Gentleman.
@@ -53,7 +53,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                info@mettbarber.com
+                info@lumiva.com
               </li>
               <li className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2" />
@@ -66,7 +66,7 @@ export default function Footer() {
       <div className="border-t border-orange-800">
         <div className="container mx-auto px-4 py-4">
           <p className="text-center text-gray-300">
-            © {new Date().getFullYear()} METT Barber Shop. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} Lumiva Barber Shop. Alle Rechte vorbehalten.
           </p>
         </div>
       </div>
